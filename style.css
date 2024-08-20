@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+  }
 
 .container {
     max-width: 1200px;
@@ -54,9 +54,7 @@ a:hover{
     
   }
 
-.Our_Services:hover{
- color: blue;
-}
+
 
 
   .Our_Services{
@@ -69,10 +67,7 @@ font-family: "Open Sans", sans-serif;
 
   }
 
-.Plans:hover{
-  color: red;
-  
-}
+
 
 .start:hover{
   color: aqua;
@@ -93,12 +88,11 @@ line-height: 125%;
 
 .Left{
   border-radius: 5px;
-height: 542px;
-width: 339px;
 box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
 background: rgb(255, 255, 255);
 text-align: center;
-align-items: center;
+padding:30px 20px ;
+
 }
 
 
@@ -118,19 +112,19 @@ align-items: center;
 
   .third_r{
     margin-top: 78px;
+    
   }
 
 
 .bas_to_dol{
   position: static;
   width: 279px;
-  height: 136px;
   /* Auto layout */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
   padding: 0px;
+
 }
 
 
@@ -172,12 +166,9 @@ align-items: center;
     line-height: 125%;
     justify-content: center;
     align-items: center;
-   height: 57px;
    display: flex;
-   max-width: 279px;
   flex-wrap: wrap;
-  padding-left:20px;
-
+color: rgba(33, 37, 41, 0.5);
   }
 
 
@@ -185,9 +176,12 @@ align-items: center;
     margin-top: 41px;
   }
  
+  .bas_to_dol{
+    display: flex;
+    text-align: center;
+  }
  
   .ptichka{
-    padding-left: 30px;
    padding-top: 11px;
     display: flex;
     gap: 11px;
@@ -236,8 +230,6 @@ background-color: blue;
 
   .last_p{
   margin-top: 135px;
-  width: 1440px;
-height: 125px;
 display: flex;
 align-items: center;
 gap: 609px;
@@ -260,3 +252,206 @@ gap: 609px;
     font-size: 20px;
     line-height: 125%;
   }
+
+.menu{
+  display: none;
+}
+
+  @media(max-width:968px)
+  {
+ 
+
+    header{
+      display: flex;
+    justify-content: space-between;
+      gap: 230px;
+    }
+
+    ul {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+  
+    }
+
+    .Left{
+      width: 250px;
+    }
+
+  .third_r{
+    gap: 80px;
+  }
+
+  .last_p{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 370px;
+
+  }
+
+
+  .third_r
+  {
+    display: flex;
+    gap: 35px;
+  }
+
+
+
+
+
+}
+
+@media(max-width:743px)
+{
+
+  header{
+    display: flex;
+  justify-content: space-between;
+    gap: 100px;
+  }
+
+  .last_p{
+    margin-top: 135px;
+  display: flex;
+  align-items: center;
+  gap: 170px;
+  }
+
+.Our_Services{
+  font-size: 25px;
+}
+
+.Hundred{
+  font-size: 24px;
+
+}
+
+.lor_15{
+  font-size: 13px;
+}
+
+.Left> button{
+font-size: 15px;
+padding: 7px 20px;
+}
+
+.lor_15{
+  text-align: center;
+
+}
+
+
+.third_r
+{
+  display: flex;
+  gap: 20px;
+}
+
+
+
+
+}
+
+@media(max-width:612px)
+{
+ul{
+  flex-direction: column;
+}
+header{
+  display: flex;
+justify-content: space-between;
+  gap: 100px;
+}
+
+.last_p{
+  margin-top: 135px;
+display: flex;
+align-items: center;
+gap: 30px;
+flex-direction: column;
+}
+
+.Our_Services{
+font-size: 25px;
+}
+
+.Hundred{
+font-size: 24px;
+
+}
+
+.lor_15{
+font-size: 13px;
+}
+
+.Left> button{
+font-size: 15px;
+padding: 7px 20px;
+}
+
+.lor_15{
+text-align: center;
+
+}
+
+
+.third_r
+{
+display: flex;
+align-items: center;
+gap: 30px;
+flex-direction: column;
+  }
+.Left{
+  padding: 45px 30px;
+
+}
+
+.Left{
+  margin-bottom: 20px;
+}
+.Left{
+  width: 330px;
+}
+
+}
+
+
+@media(max-width:375px)
+{
+  .menu{
+    display: block;
+  }
+  ul{
+    display: none;
+  }
+
+  .lorem{
+    width: 315px;
+    align-items: center;
+  }
+  .lor_15{
+   max-width: 279px;
+  }
+
+  .Left{
+    gap: 50px;
+  }
+
+  .last_p{
+    margin-top: 69px;
+  }
+
+.icons{
+  padding-top: 31px;
+  padding-bottom: 10px;
+}
+
+.rigts{
+  padding-bottom: 30px;
+}
+
+
+}
